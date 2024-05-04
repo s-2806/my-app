@@ -1,0 +1,36 @@
+#Navbar {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    background-color: rgb(33, 158, 188);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+#Navbar-Right {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    align-items: center;
+    background-color: rgb(33, 158, 188);
+    color: white;
+    padding: 10px 20px;
+    font-family: "Sevillana", cursive;
+    font-size: x-large;
+
+}
+
+#Navbar-Left{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    background-color: rgb(33, 158, 188);
+    color: white;
+    padding: 10px 20px;
+    font-size: xx-large;
+    font-family: "Sevillana", cursive;
+}
