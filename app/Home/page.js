@@ -34,7 +34,7 @@ export default function Home() {
             <Image src="/upmama.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
-            <a href="/">Upma</a>
+            <a href="/Upma">Upma</a>
           </div>
         </div>
         <div id="Container2-inner">
