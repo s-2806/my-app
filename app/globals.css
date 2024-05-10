@@ -154,12 +154,10 @@ background-color: rgb(112,
   justify-content: space-around;
 
   align-items: center;
-  background-color: rgb(112,
-    224,
-    0);
-  color: rgb(10, 10, 10);
+  background-color: rgb(112, 224, 0);
+  color: rgb(0,100,0);
   
-  font-size: 900px;
+  font-size: 20px;
   border-radius: 100px;
 }
 
@@ -169,7 +167,7 @@ background-color: rgb(112,
   column-gap: 30px;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 50px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: x-large;
