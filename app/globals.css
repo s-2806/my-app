@@ -111,15 +111,18 @@ a {
   justify-content: space-between;
   column-gap: 10px;
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  color: rgb(6, 6, 6);
+  background-color: rgb(112,
+    224,
+    0);
   padding: 10px 20px;
 
 }
 #Navbar-Right a {
-  background-color: white;
+  background-color: rgb(112,
+      224,
+      0);
   color: black;
-  font-size: x-large;
+  font-size: large;
   padding: 10px 20px;
   border-radius: 5px;
   border-radius: 100px;
@@ -136,7 +139,9 @@ a {
   justify-content: space-around;
   column-gap: 30px;
   align-items: center;
-background-color: rgb(255, 255, 255);
+background-color: rgb(112,
+  224,
+  0);
   color: rgb(2, 2, 2);
   padding: 10px 20px;
   border-radius: 100px;
@@ -149,7 +154,9 @@ background-color: rgb(255, 255, 255);
   justify-content: space-around;
 
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(112,
+    224,
+    0);
   color: rgb(10, 10, 10);
   
   font-size: 900px;
@@ -159,24 +166,24 @@ background-color: rgb(255, 255, 255);
 #Container1{
   display: flex;
   flex-direction: row;
-  column-gap: 300px;
+  column-gap: 30px;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  background-color: rgb(33, 158, 188);
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: x-large;
 }
 #Container1-Left{
   justify-content: center;
   padding: 20px;
-  background-color:rgb(33, 158, 188);
+  background-color:rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: x-large;
 }
 #Container1-Right{
   justify-content: center;
-  padding: 20px;
+  padding: 5px 5px;
   background-color: rgb(33, 158, 188);
   color: white;
   font-size: x-large;
@@ -185,18 +192,35 @@ background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   column-gap: 300px;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-color: rgb(112,
+      224,
+      0);
   color: white;
   font-size: x-large;
+  justify-content: space-around;
+  align-items: center;
 }
+#Container2-inner{
+  display: flex;
+    flex-direction: row;
+    column-gap: 3px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+    
+}
+
 #Container2 a{
-  background-color: white;
   color: black;
-  font-size: x-large;
-  padding: 10px 20px;
+  font-size: large;
   border-radius: 50px;
-  border: none;
+  padding: 10px;
+  
+}
+#Container2 a:hover{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  transition: ease-in 0.3s;
 }

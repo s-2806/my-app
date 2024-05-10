@@ -6,7 +6,7 @@ export default function Home() {
      <div>
     <div id="Navbar">
       <div id="Navbar-Left">
-        <Image src="/logo2.jpg" alt="logo" width={70} height={70} />
+        <Image src="/logom.jpg" alt="logo" width={50} height={50} />
       </div>
       <div id="Navbar-Right">
         <a href="/">Blogs</a>
@@ -25,9 +25,18 @@ export default function Home() {
       </div>
     </div>
     <div id="Container2">
-      <div><a href="/"  >recipe 1</a></div>
-      <div><a href="/" >recipe 2</a></div>
-      <div><a href="/">recipe 3</a></div>
+      <div id="Container2-inner">
+        <div><Image src="/upmama.jpg" alt="logo" width={50} height={50} /></div>
+        <div><a href="/"  >Upma</a></div>
+      </div>
+      <div id="Container2-inner">
+        <div><Image src="/upmama.jpg" alt="logo" width={50} height={50} /></div>
+        <div><a href="/"  >Noodles</a></div>
+      </div>
+      <div id="Container2-inner">
+        <div><Image src="/upmama.jpg" alt="logo" width={50} height={50} /></div>
+        <div><a href="/"  >Fried rice</a></div>
+        </div>
       </div>
     </div>
   );
