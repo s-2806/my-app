@@ -222,3 +222,29 @@ background-color: rgb(112,
   background-color: rgb(0, 0, 0);
   transition: ease-in 0.3s;
 }
+/* upma */
+#container_upma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  column-gap: 0px;
+  padding-top: 80px;
+  padding-bottom:220px;
+  align-items: center;
+  background-color: white;
+}
+
+#incontainer_upma2 h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #45da00;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#incontainer_upma2 li {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+  background-color: white;
+}
