@@ -20,9 +20,7 @@ export default function Home() {
                     <ul>
                         <li>Lorem ipsum dolor sit amet.</li>
                         <li>Lorem ipsum dolor sit amet.</li>
-                        <li>lorum5
-                          
-                        </li>
+                        <li>lorum5</li>
                         <li></li>
                         <li></li>
                     </ul>
