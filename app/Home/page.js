@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <div id="Navbar">
         <div id="Navbar-Left">
-          <Image src="/logom.jpg" alt="logo" width={50} height={50} />
+          <Image className="logo" src="/logo.jpeg" alt="logo" width={50} height={50} />
           <span>Cooking success</span>
         </div>
         <div id="Navbar-Right">
@@ -16,11 +16,17 @@ export default function Home() {
       </div>
       <div id="Container1">
         <div id="Container1-Left">
-          <h1>Cooking success</h1>
-          <p>Build your cooking skills siiting at home 😀</p>
+          <div class="wrapper">
+    <div class="typing-demo">
+      Cooking success.
+    </div>
+    <p>Build your cooking skills siiting at home 😀</p>
+</div>
+          
         </div>
         <div id="Container1-Right">
           <Image
+            className="side-image"
             src="/Best-Cutting-Board.jpg"
             alt="logo"
             width={700}
@@ -31,7 +37,7 @@ export default function Home() {
       <div id="Container2">
         <div id="Container2-inner">
           <div>
-            <Image src="/upmama.jpg" alt="logo" width={50} height={50} />
+            <Image className="logo" src="/upma.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
             <a href="/Upma">Upma</a>
@@ -39,7 +45,7 @@ export default function Home() {
         </div>
         <div id="Container2-inner">
           <div>
-            <Image src="/upmama.jpg" alt="logo" width={50} height={50} />
+            <Image className="logo" src="/upma.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
             <a href="/">Noodles</a>
@@ -47,7 +53,7 @@ export default function Home() {
         </div>
         <div id="Container2-inner">
           <div>
-            <Image src="/upmama.jpg" alt="logo" width={50} height={50} />
+            <Image className="logo" src="/upma.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
             <a href="/">Fried rice</a>

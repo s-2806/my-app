@@ -77,6 +77,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+ 
 }
 
 html,
@@ -109,12 +110,11 @@ a {
   /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  column-gap: 10px;
   align-items: center;
   background-color: rgb(112,
     224,
     0);
-  padding: 10px 20px;
+  padding: 5px;
 
 }
 #Navbar-Right a {
@@ -122,30 +122,32 @@ a {
       224,
       0);
   color: black;
-  font-size: large;
+  font-size: 17px;
   padding: 10px 20px;
   border-radius: 5px;
   border-radius: 100px;
   border: none;
 }
 #Navbar-Right a:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition: ease-in 0.3s;
 }
-
+.logo{
+  border-radius: 100px;
+}
 #Navbar-Right {
   display: flex;
   justify-content: space-around;
-  column-gap: 30px;
+  column-gap: 10px;
   align-items: center;
 background-color: rgb(112,
   224,
   0);
-  color: rgb(2, 2, 2);
+  color: rgb(0, 0, 0);
   padding: 10px 20px;
   border-radius: 100px;
-  font-size: x-large;
+  font-size: 900px;
 
 }
 
@@ -168,9 +170,38 @@ background-color: rgb(112,
   align-items: center;
   justify-content: center;
   padding: 50px;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   color: rgb(0, 0, 0);
+  background-image: url('/bg.jpg');
   font-size: x-large;
+}
+.wrapper {
+  height: 30vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 16ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }
 #Container1-Left{
   justify-content: center;
@@ -179,10 +210,13 @@ background-color: rgb(112,
   color: rgb(0, 0, 0);
   font-size: x-large;
 }
+.side-image{
+  border-radius: 10px;
+}
 #Container1-Right{
   justify-content: center;
   padding: 5px 5px;
-  background-color: rgb(33, 158, 188);
+  /* background-color: rgb(33, 158, 188); */
   color: white;
   font-size: x-large;
 }
@@ -218,22 +252,26 @@ background-color: rgb(112,
   
 }
 #Container2 a:hover{
-  color: white;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   transition: ease-in 0.3s;
 }
 /* upma */
 #container_upma {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  column-gap: 0px;
+  justify-content: space-around;
+  column-gap: 20px;
   padding-top: 80px;
   padding-bottom:220px;
   align-items: center;
   background-color: white;
+  background-image: url('/bg.jpg');
 }
-
+.logo_upma{
+  margin-left: 20px;
+  border-radius: 30px;
+} 
 #incontainer_upma2 h1 {
   font-size: 40px;
   font-weight: bold;
@@ -241,9 +279,15 @@ background-color: rgb(112,
   margin-bottom: 20px;
   background-color: white;
 }
+.point{
+  border-radius: 100px;
+}
+#incontainer_upma2 ul{
+  list-style-type: none;
 
+}
 #incontainer_upma2 li {
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   margin-bottom: 20px;
   background-color: white;
