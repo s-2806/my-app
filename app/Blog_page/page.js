@@ -9,43 +9,47 @@ export default function Home() {
             <span>Cooking success</span>
             </div>
             <div id="Navbar-Right">
+                <a href="/Home">Home</a>
             <a href="/Blog_page">Blogs</a>
             <a href="/Signup">Sign-up</a>
             <a href="/Signin">Sign-in</a>
             </div>
         </div>
+        <div className="main_container_blog">
+        <h1 className="Title">Blogs</h1> 
         <div className="blog_page_container">
-            <h1>Blogs</h1>  
-            <div className="blog">
-                <div><Image src="upma.jpg" alt="logo" width={50} height={50} /></div>
-                <div>Blog</div>
-                <div>Lorem ipsum dolor sit amet</div>
+             
+           <a href="/Upma"> <div className="blog">
+                <div ><Image className="side-image" src="/upma.jpg" alt="logo" width={250} height={230} /></div>
+                <div className="blog_title">Blog</div>
+                <div className="blog_matter">Lorem ipsum dolor sit amet</div>
                 
-            </div>
-            <div className="blog">
-                <div><Image src="upma.jpg" alt="logo" width={50} height={50} /></div>
-                <div>Blog</div>
-                <div>Lorem ipsum dolor sit amet</div>
+            </div></a>
+            <a href="/Upma"> <div className="blog">
+                <div ><Image className="side-image" src="/upma.jpg" alt="logo" width={250} height={230} /></div>
+                <div className="blog_title">Blog</div>
+                <div className="blog_matter">Lorem ipsum dolor sit amet</div>
                 
-            </div>
-            <div className="blog">
-                <div><Image src="upma.jpg" alt="logo" width={50} height={50} /></div>
-                <div>Blog</div>
-                <div>Lorem ipsum dolor sit amet</div>
+            </div></a>
+            <a href="/Upma"> <div className="blog">
+                <div ><Image className="side-image" src="/upma.jpg" alt="logo" width={250} height={230} /></div>
+                <div className="blog_title" >Blog</div>
+                <div className="blog_matter">Lorem ipsum dolor sit amet</div>
                                 
-            </div>
-            <div className="blog">
-                <div><Image src="upma.jpg" alt="logo" width={50} height={50} /></div>
-                <div>Blog</div>
-                <div>Lorem ipsum dolor sit amet</div>
+            </div></a>
+           <a href="/Upma">  <div className="blog">
+                <div ><Image className="side-image" src="/upma.jpg" alt="logo" width={250} height={230} /></div>
+                <div className="blog_title">Blog</div>
+                <div className="blog_matter">Lorem ipsum dolor sit amet</div>
                                 
-            </div>
-            <div className="blog">
-                <div><Image src="upma.jpg" alt="logo" width={50} height={50} /></div>
-                <div>Blog</div>
-                <div>Lorem ipsum dolor sit amet</div>
+            </div></a>
+           <a href="/Upma">  <div className="blog">
+                <div ><Image className="side-image" src="/upma.jpg" alt="logo" width={250} height={230} /></div>
+                <div className="blog_title">Blog</div>
+                <div className="blog_matter">Lorem ipsum dolor sit amet</div>
                                 
-            </div>
+            </div></a>
+        </div>
         </div>
     </div>
   );

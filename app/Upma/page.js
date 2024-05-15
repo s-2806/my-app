@@ -8,7 +8,8 @@ export default function Home() {
           <span>Cooking success</span>
         </div>
         <div id="Navbar-Right">
-          <a href="/">Blogs</a>
+          <a href="/Home">Home</a>
+          <a href="/Blog_page">Blogs</a>
           <a href="/Signup">Sign-up</a>
           <a href="/Signin">Sign-in</a>
         </div>
