@@ -390,7 +390,7 @@ form {
     
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 60%;
   left: 50%;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -450,7 +450,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-
+button:hover{
+    transition: all 0.2s ease-out;
+    border-radius: 3.9px;
+    box-shadow: 10px 10px 17px -4px #ffffff;
+    cursor: pointer;
+}
 /* .social {
   margin-top: 30px;
   display: flex;

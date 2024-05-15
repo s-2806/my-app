@@ -4,7 +4,7 @@ export default function Home() {
   return (
          <div> <div id="Navbar">
         <div id="Navbar-Left">
-          <Image src="/logom.jpg" alt="logo" width={50} height={50} />
+          <Image className="logo" src="/logo.jpeg" alt="logo" width={50} height={50} />
           <span>Cooking success</span>
         </div>
         <div id="Navbar-Right">

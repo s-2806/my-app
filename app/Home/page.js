@@ -48,7 +48,7 @@ export default function Home() {
             <Image className="logo" src="/upma.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
-            <a href="/">Noodles</a>
+            <a href="/Upma">Noodles</a>
           </div>
         </div>
         <div id="Container2-inner">
@@ -56,7 +56,7 @@ export default function Home() {
             <Image className="logo" src="/upma.jpg" alt="logo" width={50} height={50} />
           </div>
           <div>
-            <a href="/">Fried rice</a>
+            <a href="/Upma">Fried rice</a>
           </div>
         </div>
       </div>
