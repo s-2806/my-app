@@ -176,7 +176,7 @@ background-color: rgb(112,
   font-size: x-large;
 }
 .wrapper {
-  height: 30vh;
+  height: 20vh;
   /*This part is important for centering*/
   display: grid;
   place-items: center;
