@@ -506,6 +506,10 @@ button:hover{
   #Container2 {
     column-gap: 15px;
   }
+  #container_upma{
+    flex-direction: column;  
+    row-gap: 10px;
+  }
 }
 @media screen and (max-width:827px) {
   .side-image {
@@ -516,6 +520,7 @@ button:hover{
   #Container2 {
     column-gap: 15px;
   }
+
 }
 @media screen and (max-width:723px) {
 #Container1{
@@ -542,7 +547,4 @@ button:hover{
         #Container2 a {
           font-size: 10px;
         }
-}
-@media screen and (max-width:410px) {
-
 }
