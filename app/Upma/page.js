@@ -10,8 +10,8 @@ export default function Home() {
         <div id="Navbar-Right">
           <a href="/Home">Home</a>
           <a href="/Blog_page">Blogs</a>
-          <a href="/Signup">Sign-up</a>
-          <a href="/Signin">Sign-in</a>
+          <a href="/Signup">Signup</a>
+          <a href="/Signin">Signin</a>
         </div>
       </div>
     <div id="container_upma">

@@ -173,6 +173,7 @@ background-color: rgb(112,
   color: rgb(0, 0, 0);
   background-image: url('/bg.jpg');
   font-size: x-large;
+  height: 79vh;
 }
 .wrapper {
   height: 20vh;
@@ -481,3 +482,67 @@ button:hover{
 .social i {
   margin-right: 4px;
 } */
+@media screen and (max-width:1125px){
+  .side-image{
+    width: 500px;
+    height: 300px;
+  }
+}
+@media screen and (max-width:1043px) {
+  .side-image {
+    width: 500px;
+    height: 300px;
+  }
+  #Container2{
+    column-gap: 15px;
+  }
+}
+@media screen and (max-width:917px) {
+  .side-image {
+    width: 400px;
+    height: 250px;
+  }
+
+  #Container2 {
+    column-gap: 15px;
+  }
+}
+@media screen and (max-width:827px) {
+  .side-image {
+    width: 300px;
+    height: 250px;
+  }
+
+  #Container2 {
+    column-gap: 15px;
+  }
+}
+@media screen and (max-width:723px) {
+#Container1{
+  flex-direction: column;
+  row-gap: 10px;
+}
+.side-image{
+  width: 80vw;
+  height: 50vh;
+}
+  #Container2 {
+    column-gap: 15px;
+  }
+}
+@media screen and (max-width:487px){
+  #Navbar-Right a{
+    font-size: 10px;
+    padding:10px;
+  }
+  #Container2 {
+      column-gap: 5px;
+      font-size: 10px;
+    }
+        #Container2 a {
+          font-size: 10px;
+        }
+}
+@media screen and (max-width:410px) {
+
+}
